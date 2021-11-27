@@ -1,0 +1,205 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.top-bar.data-v-3efa440c {
+  height: 80rpx;
+  width: 750rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  z-index: 10;
+  background-color: #ffffff;
+  position: fixed;
+  top: 0px;
+  left: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-shadow: 1rpx 4rpx 13rpx rgba(0, 0, 0, 0.2);
+          box-shadow: 1rpx 4rpx 13rpx rgba(0, 0, 0, 0.2);
+  padding: 0rpx 50rpx;
+}
+.top-bar .top-bar-left.data-v-3efa440c {
+  width: 50rpx;
+  height: 50rpx;
+  margin-left: -20rpx;
+}
+.top-bar .top-bar-left image.data-v-3efa440c {
+  width: 100%;
+  height: 100%;
+}
+.top-bar .top-bar-right.data-v-3efa440c {
+  font-size: 33rpx;
+}
+.top-bar.data-v-3efa440c {
+  padding: 0rpx 40rpx;
+  background: transparent;
+}
+.back.data-v-3efa440c {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.back .bg_img.data-v-3efa440c {
+  position: absolute;
+  left: -10rpx;
+  top: -10rpx;
+  opacity: .6;
+  width: 105%;
+  height: 105%;
+  -webkit-filter: blur(10px);
+          filter: blur(10px);
+}
+.main.data-v-3efa440c {
+  margin-top: 200rpx;
+  text-align: center;
+}
+.main .user_header.data-v-3efa440c {
+  position: relative;
+  z-index: 10;
+}
+.main .user_header .portrait.data-v-3efa440c {
+  width: 360rpx;
+  height: 360rpx;
+  margin: 0 auto;
+  position: relative;
+  border-radius: 50rpx;
+  -webkit-box-shadow: 0 2px 15rpx rgba(0, 0, 0, 0.4);
+          box-shadow: 0 2px 15rpx rgba(0, 0, 0, 0.4);
+}
+.main .user_header .sex.data-v-3efa440c {
+  position: absolute;
+  left: 470rpx;
+  top: 290rpx;
+  width: 60rpx;
+  height: 60rpx;
+}
+.main .user_info.data-v-3efa440c {
+  position: relative;
+}
+.main .user_info .name.data-v-3efa440c {
+  font-size: 55rpx;
+  margin: 40rpx 0 10rpx 0;
+}
+.main .user_info .nick.data-v-3efa440c {
+  font-size: 26rpx;
+}
+.main .user_info .introduction.data-v-3efa440c {
+  width: 600rpx;
+  margin: 30rpx auto;
+  font-size: 26rpx;
+  word-wrap: break-word;
+  line-height: 45rpx;
+}
+.main .add_btn.data-v-3efa440c {
+  width: 250rpx;
+  height: 80rpx;
+  margin: 100rpx auto;
+  position: relative;
+  border: 1px solid red;
+  line-height: 80rpx;
+  border-radius: 40rpx;
+  font-size: 35rpx;
+}
+.add_panel.data-v-3efa440c {
+  width: 100%;
+  height: 820rpx;
+  z-index: 9;
+  position: fixed;
+  bottom: -820rpx;
+  background-color: #fff;
+  border-radius: 50rpx 50rpx 0 0;
+  padding: 30rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-animation: '';
+          animation: '';
+}
+.add_panel .user_name.data-v-3efa440c {
+  margin-top: 80rpx;
+  font-size: 50rpx;
+  font-weight: bold;
+}
+.add_panel .say_some.data-v-3efa440c {
+  width: 100%;
+  height: 400rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #f8f8f8;
+  padding: 30rpx;
+  margin: 80rpx auto;
+  font-size: 30rpx;
+  line-height: 50rpx;
+}
+.add_panel .btn_list.data-v-3efa440c {
+  width: 100%;
+  height: 80rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.add_panel .btn_list .btn_cancel.data-v-3efa440c {
+  width: 25%;
+  height: 100%;
+  line-height: 80rpx;
+  border: 1px solid red;
+  border-radius: 15rpx;
+  margin-right: 50rpx;
+}
+.add_panel .btn_list .btn_send.data-v-3efa440c {
+  width: 75%;
+  height: 100%;
+  line-height: 80rpx;
+  border-radius: 15rpx;
+  border: 1px solid red;
+}
+@-webkit-keyframes panel_motion-data-v-3efa440c {
+0% {
+    bottom: 100%;
+}
+100% {
+    bottom: 0%;
+}
+}
+@keyframes panel_motion-data-v-3efa440c {
+0% {
+    bottom: 100%;
+}
+100% {
+    bottom: 0%;
+}
+}
+

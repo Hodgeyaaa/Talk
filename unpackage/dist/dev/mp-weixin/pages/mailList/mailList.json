@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "page-item": "/components/page_item",
+    "group-head": "/components/groupHead",
+    "search-item": "/components/searchItem"
+  }
+}

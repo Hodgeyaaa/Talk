@@ -1,0 +1,1 @@
+<view class="groupHead data-v-c8282258"><block wx:for="{{memberHead}}" wx:for-item="item" wx:for-index="__i0__" wx:key="id"><view class="headList data-v-c8282258"><image class="headImg data-v-c8282258" src="{{item.imgurl}}"></image></view></block></view>

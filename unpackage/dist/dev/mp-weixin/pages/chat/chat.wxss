@@ -1,0 +1,177 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.chat_content .more_img.data-v-bf16e7f4 {
+  width: 60rpx;
+  height: 60rpx;
+}
+.chat_content .chat_wrap.data-v-bf16e7f4 {
+  width: 100%;
+  height: 100vh;
+}
+.chat_content .chat_wrap .chat_main.data-v-bf16e7f4 {
+  width: 750rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 100rpx 30rpx 12rpx 30rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+}
+.chat_content .chat_wrap .chat_main .chat_record.data-v-bf16e7f4 {
+  margin-top: 30rpx;
+}
+.chat_content .chat_wrap .chat_main .chat_record .time_line.data-v-bf16e7f4 {
+  font-size: 35rpx;
+  line-height: 40rpx;
+  padding: 20rpx 0;
+  text-align: center;
+  color: rgba(39, 40, 50, 0.4);
+}
+.chat_content .chat_wrap .chat_main .chat_record .msg_m.data-v-bf16e7f4 {
+  position: relative;
+  padding: 20rpx 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.chat_content .chat_wrap .chat_main .chat_record .msg_m .user_img.data-v-bf16e7f4 {
+  width: 80rpx;
+  height: 80rpx;
+  border: 1px solid black;
+  border-radius: 20rpx;
+}
+.chat_content .chat_wrap .chat_main .chat_record .msg_m .message.data-v-bf16e7f4 {
+  max-width: 490rpx;
+  margin: 0 16rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.chat_content .chat_wrap .chat_main .chat_record .msg_m .message .msg_text.data-v-bf16e7f4 {
+  padding: 16rpx 24rpx;
+  line-height: 44rpx;
+  font-size: 32rpx;
+  border: 1px solid black;
+}
+.chat_content .chat_wrap .chat_main .chat_record .msg_m .message .msg_text image.data-v-bf16e7f4 {
+  width: 200rpx;
+  height: 200rpx;
+}
+.chat_content .chat_wrap .chat_main .chat_record .msg_m .message .msg_voice.data-v-bf16e7f4 {
+  max-width: 360rpx;
+  min-width: 110rpx;
+  padding: 16rpx 20rpx;
+  font-size: 38rpx;
+  letter-spacing: 3px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  border: 1px solid black;
+}
+.chat_content .chat_wrap .chat_main .chat_record .msg_m .message .msg_voice image.data-v-bf16e7f4 {
+  width: 80rpx;
+  height: 50rpx;
+}
+.chat_content .chat_wrap .chat_main .chat_record .msg_m .message .msg_position.data-v-bf16e7f4 {
+  width: 480rpx;
+  padding: 16rpx 20rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 1px solid black;
+  box-sizing: border-box;
+  background-color: #FFFFFF;
+}
+.chat_content .chat_wrap .chat_main .chat_record .msg_m .message .msg_position .position_info.data-v-bf16e7f4 {
+  margin-bottom: 10rpx;
+}
+.chat_content .chat_wrap .chat_main .chat_record .msg_m .message .msg_position .position_info .title_name.data-v-bf16e7f4 {
+  font-size: 30rpx;
+}
+.chat_content .chat_wrap .chat_main .chat_record .msg_m .message .msg_position .position_info .detail_address.data-v-bf16e7f4 {
+  font-size: 24rpx;
+  color: #636e72;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.chat_content .chat_wrap .chat_main .chat_record .msg_m .message .msg_position map.data-v-bf16e7f4 {
+  width: 440rpx;
+  height: 250rpx;
+}
+.chat_content .chat_wrap .chat_main .chat_record .msg_m .message .user_name.data-v-bf16e7f4 {
+  font-size: 32rpx;
+  padding: 5rpx 0;
+}
+.chat_content .chat_wrap .chat_main .chat_record .msg_left .msg_text.data-v-bf16e7f4 {
+  background-color: #FFFFFF;
+  border-radius: 0 20rpx 20rpx 20rpx;
+}
+.chat_content .chat_wrap .chat_main .chat_record .msg_left .msg_voice.data-v-bf16e7f4 {
+  background-color: #FFFFFF;
+  border-radius: 0 20rpx 20rpx 20rpx;
+}
+.chat_content .chat_wrap .chat_main .chat_record .msg_left .msg_position.data-v-bf16e7f4 {
+  background-color: #FFFFFF;
+  border-radius: 0 20rpx 20rpx 20rpx;
+}
+.chat_content .chat_wrap .chat_main .chat_record .msg_right.data-v-bf16e7f4 {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -webkit-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+.chat_content .chat_wrap .chat_main .chat_record .msg_right .msg_text.data-v-bf16e7f4 {
+  background-color: #2d3436;
+  border-radius: 20rpx 0rpx 20rpx 20rpx;
+  color: #FFFFFF;
+  word-wrap: break-word;
+  word-break: normal;
+}
+.chat_content .chat_wrap .chat_main .chat_record .msg_right .msg_voice.data-v-bf16e7f4 {
+  background-color: #2d3436;
+  border-radius: 20rpx 0rpx 20rpx 20rpx;
+  color: #FFFFFF;
+  word-wrap: break-word;
+  word-break: normal;
+}
+.chat_content .chat_wrap .chat_main .chat_record .msg_right .msg_position.data-v-bf16e7f4 {
+  border-radius: 20rpx 0rpx 20rpx 20rpx;
+}
+.chat_content .chat_wrap .bot_interval.data-v-bf16e7f4 {
+  height: 150rpx;
+  width: 100%;
+}
+

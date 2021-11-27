@@ -1,0 +1,209 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "TALK首页",
+				"navigationStyle":"default"
+				// "navigationStyle":"custom"
+			}
+		}
+	    ,{
+            "path" : "pages/singin/singin",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "登录",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/singup/singup",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "注册",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/search/search",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/user_homepage/user_homepage",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/mine/mine",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/chat/chat",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/mine/mine_detail/mine_detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/friend/friend",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/friend/friendRequest/friendRequest",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/buildGroup/buildGroup",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/mailList/mailList",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/dynamic/dynamic",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/chat/chatGroupMessage/chatGroupMessage",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/friend/friendMessage/friendMessage",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/chat/chatFriendMessage/chatFriendMessage",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"condition": { //模式配置，仅开发期间生效
+	    "current": 0, //当前激活的模式（list 的索引项）
+	    "list": [{
+	            "name": "index", //模式名称
+	            "path": "pages/index/index", //启动页面，必选
+	            "query": "interval=4000&autoplay=false" //启动参数，在页面的onLoad函数里面得到。
+	        },
+			{
+			        "name": "mine", //模式名称
+			        "path": "pages/mine/mine", //启动页面，必选
+			        "query": "interval=4000&autoplay=false" //启动参数，在页面的onLoad函数里面得到。
+			    },
+			{
+			        "name": "singin", //模式名称
+			        "path": "pages/singin/singin", //启动页面，必选
+			        "query": "interval=4000&autoplay=false" //启动参数，在页面的onLoad函数里面得到。
+			    },
+			{
+			        "name": "singup", //模式名称
+			        "path": "pages/singup/singup", //启动页面，必选
+			        "query": "interval=4000&autoplay=false" //启动参数，在页面的onLoad函数里面得到。
+			    }
+	        
+	    ]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+	    "color": "#2c2c2c",
+	    "selectedColor": "#8a8a8a",
+	    "borderStyle": "black",
+	    "backgroundColor": "#ffffff",
+	    "list": [{
+	        "pagePath": "pages/index/index",
+	        "iconPath": "static/images/index/tabBar/chat.png",
+	        "selectedIconPath": "static/images/index/tabBar/chated.png",
+	        "text": "聊天"
+			
+	    }, 
+		{
+		    "pagePath": "pages/mailList/mailList",
+		    "iconPath": "static/images/index/tabBar/mailList.png",
+		    "selectedIconPath": "static/images/index/tabBar/mailListed.png",
+		    "text": "通讯录"
+		}, 
+		{
+		    "pagePath": "pages/dynamic/dynamic",
+		    "iconPath": "static/images/index/tabBar/dynamic.png",
+		    "selectedIconPath": "static/images/index/tabBar/dynamiced.png",
+		    "text": "动态"
+		}, 
+		{
+	        "pagePath": "pages/mine/mine",
+	        "iconPath": "./static/images/index/tabBar/mine.png",
+	        "selectedIconPath": "static/images/index/tabBar/mineed.png",
+	        "text": "我的"
+	    }]
+	}
+}

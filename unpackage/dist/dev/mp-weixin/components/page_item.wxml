@@ -1,0 +1,1 @@
+<view class="pageItem data-v-3c499e98"><view class="left data-v-3c499e98"><slot name="left"></slot></view><view class="text data-v-3c499e98"><slot name="text"></slot></view></view>

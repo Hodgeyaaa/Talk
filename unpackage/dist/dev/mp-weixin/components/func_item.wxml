@@ -1,0 +1,1 @@
+<view class="func_item data-v-a28b6bfa"><view class="left data-v-a28b6bfa"><slot name="left"></slot></view><view class="right data-v-a28b6bfa"><slot name="right"></slot></view><image class="arrow_img data-v-a28b6bfa" src="/static/images/public/右箭头.png"></image><view class="line data-v-a28b6bfa"></view></view>

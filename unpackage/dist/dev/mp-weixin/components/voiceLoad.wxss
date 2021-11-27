@@ -1,0 +1,230 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.voiceLoad .love ._ul.data-v-25907a8d {
+  width: 370rpx;
+  height: 400rpx;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  margin: 300rpx auto;
+}
+.voiceLoad .love ._ul ._li.data-v-25907a8d {
+  list-style: none;
+  width: 20rpx;
+  height: 20rpx;
+  border-radius: 10rpx;
+  background-color: #FFFFFF;
+  margin-left: 20rpx;
+}
+.voiceLoad .love ._ul ._li.data-v-25907a8d:nth-child(1) {
+  -webkit-animation: love1-data-v-25907a8d 2s linear infinite;
+          animation: love1-data-v-25907a8d 2s linear infinite;
+  /* height: 60px; */
+  /* transform: translateY(-30px); */
+}
+.voiceLoad .love ._ul ._li.data-v-25907a8d:nth-child(2) {
+  -webkit-animation: love2-data-v-25907a8d 2s 0.2s linear infinite;
+          animation: love2-data-v-25907a8d 2s 0.2s linear infinite;
+  /* height: 155px; */
+  /* transform: translateY(-70px); */
+}
+.voiceLoad .love ._ul ._li.data-v-25907a8d:nth-child(3) {
+  -webkit-animation: love3-data-v-25907a8d 2s 0.4s linear infinite;
+          animation: love3-data-v-25907a8d 2s 0.4s linear infinite;
+  /* height: 200px; */
+  /* transform: translateY(-85px); */
+}
+.voiceLoad .love ._ul ._li.data-v-25907a8d:nth-child(4) {
+  -webkit-animation: love4-data-v-25907a8d 2s 0.8s linear infinite;
+          animation: love4-data-v-25907a8d 2s 0.8s linear infinite;
+  /* height: 210px; */
+  /* transform: translateY(30px); */
+}
+.voiceLoad .love ._ul ._li.data-v-25907a8d:nth-child(5) {
+  -webkit-animation: love5-data-v-25907a8d 2s 1s linear infinite;
+          animation: love5-data-v-25907a8d 2s 1s linear infinite;
+  /* height: 220px;
+	      transform: translateY(50px); */
+}
+.voiceLoad .love ._ul ._li.data-v-25907a8d:nth-child(6) {
+  -webkit-animation: love4-data-v-25907a8d 2s 1.2s linear infinite;
+          animation: love4-data-v-25907a8d 2s 1.2s linear infinite;
+  /* height: 210px;
+	      transform: translateY(30px); */
+}
+.voiceLoad .love ._ul ._li.data-v-25907a8d:nth-child(7) {
+  -webkit-animation: love3-data-v-25907a8d 2s 1.4s linear infinite;
+          animation: love3-data-v-25907a8d 2s 1.4s linear infinite;
+  /* height: 200px;
+	      transform: translateY(-85px); */
+}
+.voiceLoad .love ._ul ._li.data-v-25907a8d:nth-child(8) {
+  -webkit-animation: love2-data-v-25907a8d 2s 1.8s linear infinite;
+          animation: love2-data-v-25907a8d 2s 1.8s linear infinite;
+  /* height: 155px; */
+  /* transform: translateY(-70px); */
+}
+.voiceLoad .love ._ul ._li.data-v-25907a8d:nth-child(9) {
+  -webkit-animation: love1-data-v-25907a8d 2s 2s linear infinite;
+          animation: love1-data-v-25907a8d 2s 2s linear infinite;
+  /* height: 60px; */
+  /* transform: translateY(-30px); */
+}
+@-webkit-keyframes love1-data-v-25907a8d {
+30%,
+  50% {
+    height: 60rpx;
+    /* transform: translateY(-30px); */
+}
+70%,
+  100% {
+    height: 20rpx;
+    /* transform: translateY(0px); */
+}
+}
+@keyframes love1-data-v-25907a8d {
+30%,
+  50% {
+    height: 60rpx;
+    /* transform: translateY(-30px); */
+}
+70%,
+  100% {
+    height: 20rpx;
+    /* transform: translateY(0px); */
+}
+}
+@-webkit-keyframes love2-data-v-25907a8d {
+30%,
+  50% {
+    height: 155rpx;
+    /* transform: translateY(-70px); */
+}
+70%,
+  100% {
+    height: 20rpx;
+    /* transform: translateY(0px); */
+}
+}
+@keyframes love2-data-v-25907a8d {
+30%,
+  50% {
+    height: 155rpx;
+    /* transform: translateY(-70px); */
+}
+70%,
+  100% {
+    height: 20rpx;
+    /* transform: translateY(0px); */
+}
+}
+@-webkit-keyframes love3-data-v-25907a8d {
+30%,
+  50% {
+    height: 200rpx;
+    /* transform: translateY(-85px); */
+}
+70%,
+  100% {
+    height: 20rpx;
+    /* transform: translateY(0px); */
+}
+}
+@keyframes love3-data-v-25907a8d {
+30%,
+  50% {
+    height: 200rpx;
+    /* transform: translateY(-85px); */
+}
+70%,
+  100% {
+    height: 20rpx;
+    /* transform: translateY(0px); */
+}
+}
+@-webkit-keyframes love4-data-v-25907a8d {
+30%,
+  50% {
+    height: 210rpx;
+    -webkit-transform: translateY(30px);
+            transform: translateY(30px);
+}
+70%,
+  100% {
+    height: 20rpx;
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+}
+}
+@keyframes love4-data-v-25907a8d {
+30%,
+  50% {
+    height: 210rpx;
+    -webkit-transform: translateY(30px);
+            transform: translateY(30px);
+}
+70%,
+  100% {
+    height: 20rpx;
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+}
+}
+@-webkit-keyframes love5-data-v-25907a8d {
+30%,
+  50% {
+    height: 220rpx;
+    -webkit-transform: translateY(50px);
+            transform: translateY(50px);
+}
+70%,
+  100% {
+    height: 20rpx;
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+}
+}
+@keyframes love5-data-v-25907a8d {
+30%,
+  50% {
+    height: 220rpx;
+    -webkit-transform: translateY(50px);
+            transform: translateY(50px);
+}
+70%,
+  100% {
+    height: 20rpx;
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+}
+}
+

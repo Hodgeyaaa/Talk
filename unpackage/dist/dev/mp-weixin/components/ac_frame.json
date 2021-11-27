@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "emoji": "/components/emoji",
+    "more": "/components/more",
+    "voice-load": "/components/voiceLoad"
+  }
+}

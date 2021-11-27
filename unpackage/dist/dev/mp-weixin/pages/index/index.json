@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "TALK首页",
+  "navigationStyle": "default",
+  "usingComponents": {
+    "group-head": "/components/groupHead"
+  }
+}

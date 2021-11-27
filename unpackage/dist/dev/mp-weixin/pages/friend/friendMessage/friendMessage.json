@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "func": "/components/func_item",
+    "top-bar": "/components/top-bar"
+  }
+}

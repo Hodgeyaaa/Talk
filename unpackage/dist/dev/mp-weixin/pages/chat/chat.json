@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "top-bar": "/components/top-bar",
+    "ac-frame": "/components/ac_frame",
+    "load": "/components/load"
+  }
+}
