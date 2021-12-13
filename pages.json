@@ -107,15 +107,7 @@
             }
             
         }
-        ,{
-            "path" : "pages/dynamic/dynamic",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "",
-                "enablePullDownRefresh": false
-            }
-            
-        }
+        
         ,{
             "path" : "pages/chat/chatGroupMessage/chatGroupMessage",
             "style" :                                                                                    
@@ -192,12 +184,6 @@
 		    "iconPath": "static/images/index/tabBar/mailList.png",
 		    "selectedIconPath": "static/images/index/tabBar/mailListed.png",
 		    "text": "通讯录"
-		}, 
-		{
-		    "pagePath": "pages/dynamic/dynamic",
-		    "iconPath": "static/images/index/tabBar/dynamic.png",
-		    "selectedIconPath": "static/images/index/tabBar/dynamiced.png",
-		    "text": "动态"
 		}, 
 		{
 	        "pagePath": "pages/mine/mine",

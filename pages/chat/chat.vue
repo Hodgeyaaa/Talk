@@ -256,10 +256,6 @@
 			// 点击scroll组件
 			tapScroll() {
 				this.$bus.$emit('hidePanel')
-				// this.isHidePanel = true;
-				// uni.$emit('hidePanel', '1')
-				// console.log("send")
-				//inputHeight变为0
 				this.$store.commit('reducePadding')
 				this.inputHeight = this.$store.state.scrollPadding;
 				
